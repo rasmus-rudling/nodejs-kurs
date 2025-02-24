@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { drizzle } from 'drizzle-orm/node-postgres';
-import {and, eq, ne, not, sql} from 'drizzle-orm';
+import {drizzle} from 'drizzle-orm/node-postgres';
+import {and, eq} from 'drizzle-orm';
 import {bikeStoresTable} from "./db/schema";
 
 const db = drizzle(process.env.DATABASE_URL!);
