@@ -1,0 +1,7 @@
+export enum HttpStatus {
+  OK = 200,
+  CREATED = 201,
+  NOT_AUTHENTICATED = 401,
+  NOT_AUTHORIZED = 403,
+  NOT_FOUND = 404
+}
