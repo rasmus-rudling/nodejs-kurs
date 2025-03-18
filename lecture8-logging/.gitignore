@@ -1,0 +1,7 @@
+node_modules
+docker-data
+dist
+
+TODO RASMUS
+Lägg till postgres i readme
+Uppdatera första migreringen till postgres i prisma
